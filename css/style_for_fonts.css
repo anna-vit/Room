@@ -1,0 +1,220 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* конец кода сброса стилей браузера */
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.grey_link{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 3.3rem;
+    letter-spacing: 0.1rem;
+    color: #AAAAAA;
+}
+
+.white_link{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 6rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    color: #fff;;
+}
+
+.black_link{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    letter-spacing: 0.2rem;
+    color: black;
+}
+
+.black_text_400{
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 5.8rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.light_gray{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 4rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #AAAAAA;
+
+}
+
+.link_green{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: #46856E;
+}
+
+.rooms_link{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1A1A1A;
+}
+
+.title_partners{
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 4.8rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.title_color2_grey{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.title_black_s{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1A1A1A;
+}
+
+.text_grey_xs{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    letter-spacing: 0em;
+    color: #AAAAAA;
+}
+
+.text_grey_s{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #AAAAAA;
+}
+
+.text_grey_m{
+    font-size: 4.6rem;
+    font-weight: 400;
+    line-height: 5.2rem;
+    letter-spacing: 0em;
+    color: #AAAAAA;
+}
+
+.text_white_normal{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.text_white_s{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    letter-spacing: 0.075rem;
+    text-align: left;
+    color: #fff;
+}
+
+.text_black_m{
+    font-size: 4.6rem;
+    font-weight: 400;
+    line-height: 5.2rem;
+    letter-spacing: 0em;
+    color: #000;
+}
+
+.black_title{
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1A1A1A;
+}
+
+.black_link_xs{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    letter-spacing: 0.075rem;
+    color: #1A1A1A;
+}
+
+.white_xs{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    color: #fff;
+}
+
+.white_xxs{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    letter-spacing: 0.05rem;
+    color: #fff;
+}
+
+.agree_text{
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    letter-spacing: 0.24rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+}
+
