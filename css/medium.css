@@ -1,0 +1,177 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+* {
+	box-sizing: border-box;
+}
+/* конец кода сброса стилей браузера */
+
+html {
+    font-size: 62.5%;
+}
+body{
+    max-width: 76.8rem;
+    margin: 0 auto;
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Permanent Marker', cursive; */
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.navbar{
+	display: none;
+}
+
+.header-max{
+	margin: 0 4rem;
+}
+
+.max-nav li{
+	padding: 0 0.4rem;
+}
+
+.banner{
+	margin: 2rem 5rem;
+}
+
+.design_that_small{
+	display: none;
+}
+
+.design_that{
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 1rem 5rem 1rem 5rem;
+}
+
+.gallery{
+	margin: 10rem 5rem 3.2rem 5rem;
+}
+
+.partners {
+    margin: 10rem 5rem 10rem 5rem;
+}
+
+.partners p {
+    margin-bottom: 6rem;
+}
+
+.our_simple {
+    margin: 8.3rem 6rem 10rem 6rem;
+}
+
+.our_simple_table{
+	flex-wrap: wrap;
+}
+
+.baner{
+	margin: 4rem 0;
+    padding: 6rem 2rem;
+	background-position: bottom;
+}
+
+.text_content{
+	padding: 5rem;
+	flex-direction: row-reverse;
+}
+
+.text_grey_m{
+	font-size: 3rem;
+	line-height: 3.5rem;
+}
+
+.our_obj{
+	margin: 0 6rem 10rem 6rem;
+}
+
+.our_obj figure{
+	flex-direction: column;
+	margin: 0;
+}
+
+.our_obj figure:nth-child(even){
+	flex-direction: column;
+}
+
+.our_obj figcaption{
+	margin: 3rem 0;
+}
+
+.get_it{
+	margin: 10rem 6rem 10rem 6rem;
+}
+
+.get_it h3{
+	padding-top: 3rem;
+}
+
+.get_it ul{
+	margin: 0;
+}
+
+footer{
+	padding: 2rem;
+}
+
+.lists{
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: space-around;
+}
+
+.white_xs{
+	font-size: 2rem;
+	line-height: 2rem;
+}
+
+.follow{
+	padding: 2rem 0;
+	text-align: center;
+}
+
+.social_ul{
+	justify-content: space-evenly;
+}
+
+.agree{
+	justify-content: space-around;
+}
+
+input[type="text"]{
+	min-width: 60rem;
+	min-height: 9.4rem;
+}
+
+.submit_container{
+	justify-content: space-evenly;
+}
