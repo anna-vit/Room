@@ -1,0 +1,201 @@
+/* Запросы Mobile First */
+/* стили для любой ширины */
+/* стили для ширины крупнее мобильных */
+/* стили для ширины 400 пикселов и выше */
+@media (min-width: 320px) {
+    body{
+        font-family: 'Roboto', sans-serif; 
+        color: black;
+    }
+
+    a{
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    li{
+        list-style-type: none;
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .min-header{
+        min-height: 4rem;
+        background: #F4F4F4;
+    }
+    .min-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 2.1rem;
+        margin: 0;
+    }
+    .max-header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 2rem;
+    }
+
+    .banner_room{
+        margin: 2rem 0;
+    }
+
+    .banner_room img{
+        width: 100%;
+        height: auto;
+    }
+
+    .text-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .black_title{
+        font-size: 3.8rem;
+        line-height: 3.8rem;
+        padding: 2rem 0;
+    }
+
+    .text_gray{
+        font-size: 2rem;
+        line-height: 2.5rem;
+        color: #AAAAAA;
+        padding: 2rem 0;
+        text-align: center;
+    }
+
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 4rem 2rem;
+    }
+
+    .gallery img{
+        width: 100%;
+        height: auto;
+    }
+
+    .partners{
+        display: flex;
+        flex-direction: column;
+        margin: 4rem 2rem;
+    }
+
+    .partners img{
+        width: 100%;
+        height: auto;
+    }
+
+    .partners table{
+        margin: 2rem 0;
+        display: flex;
+    }
+
+    .our-simple{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 2rem;
+    }
+
+    .our_simple_title{
+        font-size: 3rem;
+        text-align: center;
+    }
+    .our_simple_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our_simple_content div:nth-child(even){
+        text-align: end;
+    }
+    .our_simple_content div:nth-child(odd){
+        text-align: start;
+    }
+    .col_4{
+        padding: 2rem 0;
+    }
+
+    .col_4 h4{
+        padding-top: 2rem;
+    }
+    .our_simple_content img{
+        width: 50%;
+        height: auto;
+    }
+    .baner{
+        min-height: 80rem;
+        margin: 2rem 0;
+        background-image: url(../images/baner.svg);
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    .ul_feedback{
+        padding: 10rem 2rem;
+    }
+
+    .ul_feedback li{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 3.2rem;
+    }
+    
+    .ul_feedback li:last-child{
+        padding-bottom: 3.9rem;
+    }
+
+    .content{
+        margin: 4rem 0;
+        text-align: center;
+    }
+
+    .content .text_grey_m{
+        display: none;
+    }
+
+    .gallery_two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 4rem 0;
+    }
+
+    .gallery_two img{
+        width: 100%;
+        height: auto;
+    }
+    .gallery_two figcaption{
+        padding: 0 2rem;
+    }
+    .gallery_two figure:nth-child(even){
+        padding: 2rem 0;
+    }
+}
+/* стили для ширины крупнее фаблетов */
+/* стили для ширины 550 пикселов и выше */
+@media (min-width: 550px) {
+}
+/* стили для ширины крупнее планшетов */
+/* стили для ширины 750 пикселов и выше */
+@media (min-width: 750px) {
+
+}
+/* стили для ширины крупнее компьютерных мониторов */
+/* стили для ширины 1000 пикселов и выше */
+@media (min-width: 1000px) {
+
+}
+/* стили для ширины крупнее компьютерных HD-мониторов */
+/* стили для ширины 1200 пикселов и выше */
+@media (min-width: 1200px) {
+}
