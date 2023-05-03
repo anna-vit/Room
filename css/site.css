@@ -1,7 +1,4 @@
 /* Запросы Mobile First */
-/* стили для любой ширины */
-/* стили для ширины крупнее мобильных */
-/* стили для ширины 400 пикселов и выше */
 @media (min-width: 320px) {
     body{
         font-family: 'Roboto', sans-serif; 
@@ -180,15 +177,231 @@
     .gallery_two figure:nth-child(even){
         padding: 2rem 0;
     }
+    .banner_two img{
+        width: 100%;
+        height: auto;
+    }
+    .get_it{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #F2F2F2;
+        border-radius: 0.2rem;
+        box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+        margin: 4rem 2rem;
+        padding: 2rem;
+    }
+    .get_it h3{
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 5.2rem;
+        letter-spacing: 0em;
+        color: #000;
+    }
+    .get_it ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .get_it li{
+        padding: 1rem;
+    }
+    .get_it figure{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #btn_get_room{
+        width: 14.6rem;
+        height: 5rem;
+        background: #46856E;
+        border-radius: 0.2rem;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        background: #2B2B2B;
+        box-shadow: 0 40rem 0 #2B2B2B;
+        color: #FFF;
+        padding: 4rem 2rem;
+    }
+    .footer .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 3rem 0;
+    }
+    #social_nav{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .social_ul{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        padding: 2rem 0;
+    }
+    #form{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    #form form{
+        padding: 1rem 0;
+    }
+    #form input[type="text"]{
+        min-width: 34rem;
+        min-height: 5.4rem;
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        border-radius: 3px;
+        background-color: #2B2B2B;
+        color: #FFF;
+    }
+    .field-select{
+        min-width: 12.9rem;
+        margin-top: 1.6rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 2.1rem;
+        letter-spacing: 0em;
+        /* text-align: left; */
+        color: rgba(255, 255, 255, 0.5);
+        background-color: #2B2B2B;
+        border: none;
+        position: relative;
+        left: 64%;
+    
+    }
+    .agree{
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    #form input[type="checkbox"]{
+        width: 2.6rem;
+        height: 2.6rem;
+        background: #2B2B2B;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    #form input[type="submit"]{
+        width: 9rem;
+        height: 6rem;
+        background: #2B2B2B;
+        text-transform: uppercase;
+        border: none;
+    }
 }
 /* стили для ширины крупнее фаблетов */
 /* стили для ширины 550 пикселов и выше */
 @media (min-width: 550px) {
+    .partners{
+        margin: 6rem 2rem 2rem 2rem;
+    }
+    .our-simple{
+        margin: 3rem 2rem;
+    }
+    .our_simple_title{
+        font-family: 'Roboto', sans-serif; 
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.8rem;
+    }
 }
 /* стили для ширины крупнее планшетов */
 /* стили для ширины 750 пикселов и выше */
 @media (min-width: 750px) {
-
+    .min-nav{
+        justify-content: flex-end;
+    }
+    .min-nav li{
+        padding: 0 1.3rem;
+    }
+    .max-header{
+        margin: 0 2rem;
+    }
+    .max-nav ul{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    .nav-btns ul{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    .text-content .black_title{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4.8rem;
+        line-height: 5.8rem;
+    }
+    .partners{
+        margin: 10rem 2rem 2rem 2rem;
+    }
+    .our-simple{
+        margin: 8.3rem 2rem 6.3rem 2rem;
+    }
+    .our_simple_title{
+        display: flex;
+        align-items: flex-start;
+    }
+    .our_simple_content{
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .our_simple_content div:nth-child(even){
+        text-align: start;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 14rem 2rem;
+    }
+    .content .text_grey_m{
+        display: block;
+        font-size: 2.4rem;
+        line-height: 4rem;
+    }
+    .get_it h3{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4.6rem;
+        line-height: 5.1rem;
+    }
+    .get_it ul{
+        width: 70%;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: baseline;
+        margin: 6rem 0;
+    }
+    .gallery_two{
+        margin: 2rem 4rem;
+    }
+    .gallery_two figure{
+        display: flex;
+    }
+    .gallery_two figure:nth-child(odd){
+        margin-top: 3rem;
+    }
+    .gallery_two figure:nth-child(even){
+        flex-direction: row-reverse;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .gallery_two img{
+        width: 60%;
+        height: auto;
+    }
 }
 /* стили для ширины крупнее компьютерных мониторов */
 /* стили для ширины 1000 пикселов и выше */
